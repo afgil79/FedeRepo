@@ -8,7 +8,7 @@ class App(ttk.Frame):
     def __init__(self, parent):
         super().__init__(parent, padding=(10))
         self.parent = parent    # referencia a la ventana ppal
-        parent.title("Formulario Principal")
+        parent.title("Formulario Principal de la Universidad:")
         
         self.nombre = tk.StringVar()
         self.apellido = tk.StringVar()
